@@ -11,7 +11,7 @@ router.post('/ninjas', function(req, res){
    res.send({type: 'POST'}); 
 });
 
-//update a ninja in database
+//update ninja in database
 router.put('/ninjas/:id', function(req, res){
    res.send({type: 'PUT'}); 
 });
